@@ -19,39 +19,57 @@ section{
 	border-bottom: 1px solid #000;
 	height: 600px;
 	margin-top: 2rem;
+	position: relative;
 
 }
 
 .wrapper{
 	max-width: 600px;
 	margin: auto;
+
 }
 
 .row{
 	width: 100%;
+
 }
 
 .col{
 	width: 200px;
 	height: 200px;
+
 }
 
 .electric-purple{
 	background: #C200FB;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
 }
 
 .raspberry{
 	background: #EC0868;
+	position: absolute;
+	right: 200px;
+	top: 0;
+	z-index: 2;
 
 }
 
 .ferrari-red{
 	background: #FC2F00;
-
+	position: absolute;
+	top: 0;
+	right: 400px;
+	z-index: 3;
 
 }
 
-.ferrari-red{
+.black{
 	background: #000;
-
+	position: absolute;
+	top: 0;
+	right: 600px;
+	z-index: 4
 }
